@@ -1,0 +1,20 @@
+#!/usr/bin/env mkb
+
+# files specifies all files to build
+files
+{
+    (src)
+    main.cpp
+# Add new source files here
+}
+
+subprojects
+{
+    IwUI
+}
+
+assets
+{
+    (data-ram/data-gles1)
+    ui.group.bin
+}
